@@ -2,7 +2,9 @@ use inc::Module::Install;
 name 'Kokomi';
 all_from 'lib/Kokomi.pm';
 
-# requires '';
+requires 'Path::Class';
+requires 'Text::Markdown';
+requires 'Text::Xslate';
 
 tests 't/*.t';
 author_tests 'xt';
