@@ -1,0 +1,23 @@
+# Kokomi - Minimal HTML generator from Markdown texts
+
+## Installation
+
+    $ cpanm .
+
+## Required Modules
+
+- Text::Xslate
+- Text::Markdown
+- Path::Class
+
+## Usage
+
+1. Make directories *tmpl*, *data*, *html*.
+2. Make *header.tt* and *footer.tt* onto tmpl directory.
+3. Write Markdown texts onto data directory.
+4. Run *kokomi.pl*.
+5. HTML is Generated.
+
+## AUTHOR 
+
+Yusuke Wada
