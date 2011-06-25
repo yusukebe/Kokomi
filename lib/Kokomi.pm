@@ -58,9 +58,12 @@ Kokomi - Minimal HTML generator with markdown text.
 
   use Kokomi;
 
+  my $kokomi = Kokomi->new;
+  $kokomi->generate;
+
 =head1 DESCRIPTION
 
-Kokomi is
+Kokomi is minimal command line tool to generate HTML files from markdown texts.
 
 =head1 AUTHOR
 
